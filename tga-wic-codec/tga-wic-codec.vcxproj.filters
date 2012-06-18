@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="wicx">
+      <UniqueIdentifier>{ad4fea9d-399d-4ed4-a4cf-2f47e4d4ceb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tgax">
+      <UniqueIdentifier>{766f9ba4-46dc-4ac5-aedc-5282f06bb510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wicx\basedecoder.cpp">
+      <Filter>wicx</Filter>
+    </ClCompile>
+    <ClCompile Include="wicx\regman.cpp">
+      <Filter>wicx</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="tga-wic-codec.cpp" />
+    <ClCompile Include="tgax\tgadecoder.cpp">
+      <Filter>tgax</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wicx\basedecoder.hpp">
+      <Filter>wicx</Filter>
+    </ClInclude>
+    <ClInclude Include="wicx\classfactory.hpp">
+      <Filter>wicx</Filter>
+    </ClInclude>
+    <ClInclude Include="wicx\regman.hpp">
+      <Filter>wicx</Filter>
+    </ClInclude>
+    <ClInclude Include="wicx\unknownimpl.hpp">
+      <Filter>wicx</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.hpp" />
+    <ClInclude Include="tgax\tgadecoder.hpp">
+      <Filter>tgax</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tga-wic-codec.def" />
+  </ItemGroup>
+</Project>
